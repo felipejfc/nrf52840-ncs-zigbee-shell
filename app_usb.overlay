@@ -10,8 +10,15 @@
 	};
 };
 
+&ieee802154 {
+	status = "okay";
+};
+
  / {
 	chosen {
 		zephyr,shell-uart = &cdc_acm_uart;
+		zephyr,uart-mcumgr = &cdc_acm_uart;
+		zephyr,console = &cdc_acm_uart;
+        zephyr,ieee802154 = &ieee802154;
 	};
 };

@@ -1,0 +1,15 @@
+soft_device:
+  address: 0x0
+  end_address: 0x26000
+  region: flash_primary
+  size: 0x26000
+user_data:
+  address: 0xed000
+  end_address: 0xf4000
+  region: flash_primary
+  size: 0x7000
+bootloader_do_not_write:
+  address: 0xf4000
+  end_address: 0x100000
+  region: flash_primary
+  size: 0xc000

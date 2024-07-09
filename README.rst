@@ -1,7 +1,9 @@
 .. _zigbee_shell_sample:
 
-Zigbee: Shell
-#############
+Zigbee: Shell - Nice!Nano Example
+############
+
+This repository demonstrates how to create zigbee applications for running on nice!nano and it's clones like promicro nrf52840 (search on aliexpress). NRF52840 is a great choice for zigbee end devices because of it's low cost, small form factor and low power consumption.
 
 .. contents::
    :local:
